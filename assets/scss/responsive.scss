@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1024px) {
+  .d-none {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+  .toggle_inp{
+    display: none;
+  }
+  .nav_responsive{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #FFF;
+    padding: 25px ;
+    height: 100vh;
+    transition: all 3s;
+    transform: translateX(-100%);
+  }
+
+  .toggle_inp:checked+ .nav_responsive{
+    transform: translateX(0);
+  }
+  .list_responsive{
+    padding-bottom: 15px;
+  }
+  .hero_head {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+    letter-spacing: 3px;
+  } 
+  .shred_sb_icon{
+    display: block;
+  }
+  .california_grid{
+    display: block;
+  }
+  .calfornia_massive{
+    padding: 50px 20px ;
+  }
+  .review_cards{
+    display: block;
+    position: static;
+    transform: translateX(0);
+  }
+  .faqs_content{
+    display: block;
+    padding: 10px;
+  }
+  .review{
+    padding: 20px;
+  }
+  .faqs{
+    padding: 80px 10px ;
+  }
+  .flex-wrap{
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  .hero_para{
+    display: none;
+  }
+  .hero_description{
+    padding: 80px 15px;
+  }
+  .rush_board {
+    margin-top: 0;
+  }
+  .rush_card_middle{
+    display: none;
+  }
+  .rush_box{
+    display: block;
+  }
+  .rush_board_responsive{
+    display: block;
+    position: absolute;
+    top: 50%;
+    width:  100%;
+    transform: translateZ(-50%);
+      box-shadow: 0px 0px 12.300000190734863px 0px rgba(255, 255, 255, 0.20);
+  }
+  .rush_board_img{
+    width: 100%;
+  }
+  .summerboard_images{
+    padding: 0;
+  }
+  .shred_line{
+    display: none;
+  }.shred_speed_left{
+    right: 5.2%;
+  }
+  .shred_battery_left{
+    left: 5.2%;
+  }
+  .calfornia_massive_head{
+    padding: 15px;
+  }
+  .massive_logo{
+    padding: 15px;
+  }
+  .massive_logo2{
+    padding: 15px;
+  }
+  .f-wrap{
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+}

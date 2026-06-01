@@ -1,0 +1,58 @@
+
+/* Header CSS */
+
+.header {
+    padding: 30px;
+  }
+  .nav {
+    gap: 30.23px;
+  }
+  .nav_list {
+    gap: 30px;
+  }
+  .nav_list_l {
+    border-left: 1px solid;
+    padding: 15px 30px;
+    gap: 30px;
+  }
+  .nav_list_text {
+    color: var(--main_text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fbb232;
+    transition: all 0.5s;
+  }
+  .nav_list_text:hover {
+    border-bottom: 5px solid #fbb232;
+  }
+  .nav_buy_btn {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+    padding: 10px 20px;
+    background: #fbb232;
+    text-transform: uppercase;
+  }
+  .nav_list_r {
+    border-right: 1px solid;
+    padding: 15px 30px;
+    gap: 30px;
+  }
+  .nav_r_icon{
+    background-color: transparent;
+    
+  }
+  .toggle{
+    display: none;
+  }
+  .toggle_inp{
+    display: none; 
+  }
+  .nav_responsive{
+    display: none;
+  }

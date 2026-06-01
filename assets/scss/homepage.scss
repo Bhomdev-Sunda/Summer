@@ -1,0 +1,423 @@
+
+
+/* Hero CSS */
+
+.hero_img {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .hero_sec {
+    position: relative;
+  }
+  .hero_content {
+    position: absolute;
+    max-width: 800px;
+    top: 17.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+  }
+  .hero_head {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.05em;
+  }
+  .hero_para {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 73px;
+    letter-spacing: 2.4px;
+  }
+  .hero_shop_btn {
+    color: #fff;
+    padding: 18px 30px;
+    background-color: #fbb232;
+  }
+
+  
+  /* Hero_Description CSS */
+  
+  .hero_description {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 100px 0 50px;
+  }
+  .hero_description_para {
+    color: var(--main_text);
+    font-size: 32px;
+    line-height: 40px; /* 125% */
+  }
+  
+  /* Rush CSS */
+  
+  .rush_board {
+    position: relative;
+    margin-top: 130px;
+  }
+  .rush_card_img {
+    width: 100%;
+    height: 729px;
+    padding-top: 25px;
+    background-position: center;
+  }
+  .rush_cards {
+    width: 100%;
+    position: relative;
+  }
+  .rush_card_middle {
+    position: absolute;
+    top: 0;
+    height: 900px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .rush_para {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 300;
+  }
+  .rush_card1_content {
+    position: absolute;
+    top: 19.89%;
+    left: 16.66%;
+    max-width: 318px;
+  }
+  .rush_card2_content {
+    position: absolute;
+    max-width: 318px;
+    right: 16.66%;
+    top: 19.89%;
+    text-align: right;
+  }
+  .rush_board_responsive{
+    display: none;
+  }
+
+// MEET SUMMERBOARD CSS
+
+.meet_summerboard{
+  padding: 100px 0;
+}
+.meet_summerboard_para {
+  color: var(--main_text);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px; /* 142.857% */
+}
+.meet-summerboard_img{
+  margin-top: 300px;
+}
+
+// SUMMERBOARD IMAGES CSS
+
+.summerboard_images{
+  padding: 100px 0 0 0;
+  line-height: 0;
+}
+.summerboard_images_top{
+  display: grid;
+  grid-template-columns: 1fr 0.48fr;
+}
+.summerboard_images_top_right{
+  height: 100%;
+}
+.summerboard_images_bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+// SHRED CSS
+
+.shred{
+  background-blend-mode: overlay, normal;
+  background-color: #323234;
+  padding: 120px 0 130px 0;
+  @extend .p-relative ;
+}
+.shred_head{
+  color: #fff;
+}
+.shred_sb_icon{
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+}
+.shred_sb_icon_para{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  padding-top: 160px;
+}
+.shred_sb_icon_btn{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 13px 20px ;
+  margin: 63px 0 ;
+  background-color: #fbb232;
+}
+.shred_boards{
+ max-width:500px;
+  height: 600px ;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  @extend .p-relative;
+}
+.shred_left_head{
+  color: #FFF;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 500;
+}
+.shred_left_para{
+  color: #FFF;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 400;
+}
+.shred_battery_left{
+  @extend .p-absolute ;
+  top: 44.4%;
+  left: 14.2% ;
+}
+.shred_left_board{
+  @extend .p-absolute ;
+  top: 12% ;
+  left: 50% ;
+  transform: translateX(-50%);
+}
+.shred_speed_left{
+  @extend .p-absolute ;
+  top: 44.4%;
+  right: 14.2% ;
+}
+.shred_review{
+  max-width:500px;
+  gap: 20px ;
+  margin: 0 auto;
+  padding-top: 51px;
+}
+.shred_review_para{
+  color: #FFF;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+.shred_line{
+  @extend .p-absolute ;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// REVOLUTION CSS
+
+.revolution_head{
+  color: #fff;
+  margin-top: 152px;
+}
+.revolution_para{
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px; /* 142.857% */
+}
+.revolution_content{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.revolution_icon_head{
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  padding-top: 15px;
+}
+.revolution_icon_para{
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+// California 
+
+.california_img{
+ width:  100%;
+}
+.california_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #323234;
+  align-items: center;
+}
+.calfornia_massive{
+  max-width:  400px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.calfornia_massive_head{
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  
+}
+.massive_head{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 305px;
+}
+.massive_para{
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 500;
+  max-width: 305px;
+
+}
+.massive_logo{
+    margin-top: 56px;
+    gap: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.15);;
+}
+.massive_logo2{
+  margin-top: 25px;
+  gap: 10px;
+}
+.massive_tilt{
+  max-width:  100%;
+  object-fit: cover;
+  object-position: top;
+  background-color:#fff ;
+  height: 100vh;
+  position: relative;
+}
+.massive_tilt_img{
+  width: 100%;
+  height: 100vh;
+  line-height: 0;
+  font-size: 0;
+}
+.calfornia_massive_bottom_para{
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.calfornia_massive_bottom{
+  background-color: #FFF;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.calfornia_massive_bottom_head{
+  color: #000;
+  padding-bottom: 30px;
+}
+.calfornia_massive_bottom_logo{
+  padding-top: 70px;
+}
+.calfornia_massive_bottom_logo_text{
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+
+}
+
+// REVIEWS CSSS
+
+.review{
+  padding: 100px 0 236px 0;
+  position: relative;
+}
+.review_button{
+  color: #323234;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin:50px 0 70px 0 ;
+  background-color: transparent;
+  border: 1px solid #000;
+}
+.star_icon{
+  padding-bottom: 25px;
+}
+.jane{
+  padding-top: 20px;
+}
+.review_cards{
+ max-width: 920px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  position: absolute;
+  top: 65.27%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.review_stars{
+  padding: 50px 30px 50px 30px;
+  border: 1px solid #E5E5E5;
+  height: 320px;
+  background-color: #FFF;
+}
+
+// FAQS CSS
+
+.faqs{
+  padding: 254px 0 100px 0 ;
+  background: #F2F2F2;
+}
+.faqs_content{
+  display: grid;
+  grid-template-columns: 450px 450px ;
+  gap: 50px ;
+  justify-content: center;
+  margin-top: 60px;
+}
+.faqs_text{
+  margin-bottom: 50px;
+}
+.faqs_head{
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.faqs_para{
+  color: #323234;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+// FOOTER CSS
+
+footer{
+  background-color:#323234;
+  padding: 72px 0 118px 0 ;
+}
+
+  /* Responsive CSS */
+  
+  
+  
